@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <main id="main">
+      <h1 align="center"> First Practice: Build a Tribute page</h1>
+      <h1 id="title" align="center">Life of Brian</h1>
+
+
+      <div id="img-div">
+        <div class="row">
+          <div class="column"></div>
+          <div class="column">
+        <img src="Brian.jpg" alt="Life of Brian" id="image" img-align="center"></img>
+        <img src="brian-mandy.jpg" alt="Brian with his mother" id="image"></img>
+      </div>
+      <div class="column">
+        <img src="FPJ.jpg" alt="Front of Judea" id="image"></img>
+        <img src="Latin.jpg" alt="Romani" id="image"></img>
+        <p id="img-caption">One of the best movies ever made</p>
+
+      </div>
+      <div id="tribute-info">
+        <p> Monty Python's Life of Brian, also known as Life of Brian,
+           is a 1979 British comedy film starring and written by the comedy
+           group Monty Python (Graham Chapman, John Cleese, Terry Gilliam, Eric Idle,
+            Terry Jones and Michael Palin). It was also directed by Jones. The film tells
+            the story of Brian Cohen (played by Chapman), a young Jewish-Roman man who is born
+             on the same day as—and next door to—Jesus, and is subsequently
+          mistaken for the Messiah.</p>
+      </div>
+    <div class="center">
+      <a href="https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian" target="_blank" id="tribute-link">In this page you'll find more information about this movie</a>
+    </div>
+
+    <h1 align="center"> Second practice: Build a Survey Form</h1>
+
+    <p id="description"> This is is a little survey where you can tell about your favorite movies</p>
+
+    <form id="survey-form">
+      <label id="name-label"> Name: </label>
+      <input type="text" name="name" id="name" required placeholder="Your Name"><br>
+
+      <label id="email-label">Your e-mail</label>
+      <input type="email" name="email" id="email" required placeholder="Best Email"><br>
+
+      <label id="number-label"> Number: </label>
+      <input type="number" name="number" id="number" min="0" max="10" required placeholder="$"><br>
+
+      <label id="movie-type-label">Type of Movie:</label>
+      <select id="dropdown" name="types">
+        <option value="Comedy">Comedy</option>
+        <option value="Drama">Drama</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Thriller">Thriller</option>
+      </select>
+      <label id="additional-comments-label">Tell us if your favorite Genre is not in the list </label>
+      <textarea placeholder="Tell us"></textarea><br>
+
+      <div id="button-area">
+        <label id="gender-label">Tell ur your Gender</label>
+        <input type="radio" class="radio-inline" name="gender" value="male">Male <br>
+        <input type="radio" class="radio-inline" name="gender" value="female">Female<br>
+        <input type="radio" class="radio-inline" name="gender" value="other">Other<br>
+      </div>
+
+      <div id="button-area">
+        <label id="food-type-area">Do you eat while you are watching a movie?</label>
+
+        <input type="checkbox" name="food" value="popcorn">popcorn<br>
+        <input type="checkbox" name"food1" value="candy">candy<br>
+        <input type="checkbox" name="food2" value="Nothing">Nothing<br>
+      </div>
+      <input type="submit" id="submit">
+    </form>
+  </main>
+
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
